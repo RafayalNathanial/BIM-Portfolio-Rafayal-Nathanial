@@ -1,0 +1,34 @@
+<svg viewBox="0 0 600 338" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="338" fill="#16293c"/>
+  <g opacity="0.12" stroke="#2fd4c8" stroke-width="1">
+    <path d="M0 40H600M0 80H600M0 120H600M0 160H600M0 200H600M0 240H600M0 280H600"/>
+    <path d="M40 0V338M80 0V338M120 0V338M160 0V338M200 0V338M240 0V338M280 0V338M320 0V338M360 0V338M400 0V338M440 0V338M480 0V338M520 0V338M560 0V338"/>
+  </g>
+  <!-- structure grid -->
+  <g stroke="#e7eef5" stroke-width="2" opacity="0.5">
+    <line x1="150" y1="60" x2="150" y2="280"/>
+    <line x1="300" y1="60" x2="300" y2="280"/>
+    <line x1="450" y1="60" x2="450" y2="280"/>
+    <line x1="90" y1="100" x2="510" y2="100"/>
+    <line x1="90" y1="200" x2="510" y2="200"/>
+  </g>
+  <!-- federated volumes -->
+  <rect x="120" y="80" width="60" height="180" fill="#2fd4c8" opacity="0.25"/>
+  <rect x="270" y="80" width="60" height="180" fill="#ff8c42" opacity="0.25"/>
+  <rect x="420" y="80" width="60" height="180" fill="#e7eef5" opacity="0.15"/>
+
+  <!-- clash bubbles -->
+  <g>
+    <circle cx="150" cy="100" r="10" fill="#ff5d6c"/>
+    <circle cx="300" cy="150" r="10" fill="#ff5d6c"/>
+    <circle cx="300" cy="220" r="10" fill="#ff5d6c"/>
+    <circle cx="450" cy="200" r="10" fill="#ff5d6c"/>
+  </g>
+  <g stroke="#ff5d6c" stroke-width="1" stroke-dasharray="4 3" opacity="0.6">
+    <line x1="150" y1="100" x2="300" y2="150"/>
+    <line x1="300" y1="150" x2="300" y2="220"/>
+    <line x1="300" y1="220" x2="450" y2="200"/>
+  </g>
+
+  <text x="24" y="316" fill="#6d8298" font-family="monospace" font-size="13">CLASH_REPORT.HTML — ARCH / STR / MEP</text>
+</svg>

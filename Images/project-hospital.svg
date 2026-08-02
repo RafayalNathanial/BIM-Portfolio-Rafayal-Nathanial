@@ -1,0 +1,28 @@
+<svg viewBox="0 0 600 338" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="338" fill="#16293c"/>
+  <g opacity="0.12" stroke="#2fd4c8" stroke-width="1">
+    <path d="M0 40H600M0 80H600M0 120H600M0 160H600M0 200H600M0 240H600M0 280H600"/>
+    <path d="M40 0V338M80 0V338M120 0V338M160 0V338M200 0V338M240 0V338M280 0V338M320 0V338M360 0V338M400 0V338M440 0V338M480 0V338M520 0V338M560 0V338"/>
+  </g>
+  <!-- isometric hospital block -->
+  <g transform="translate(300,175)">
+    <polygon points="-40,-100 40,-100 90,-70 90,60 40,90 -40,90 -90,60 -90,-70" fill="none" stroke="#2fd4c8" stroke-width="2" opacity="0.9"/>
+    <polygon points="0,-100 90,-70 90,60 0,30" fill="#1c766e" opacity="0.55"/>
+    <polygon points="0,-100 -90,-70 -90,60 0,30" fill="#2fd4c8" opacity="0.35"/>
+    <!-- cross -->
+    <g transform="translate(0,-40)">
+      <rect x="-6" y="-24" width="12" height="48" fill="#ff8c42"/>
+      <rect x="-24" y="-6" width="48" height="12" fill="#ff8c42"/>
+    </g>
+    <!-- windows -->
+    <g stroke="#0e1c2c" stroke-width="2">
+      <line x1="20" y1="-70" x2="80" y2="-55"/>
+      <line x1="20" y1="-30" x2="80" y2="-15"/>
+      <line x1="20" y1="10" x2="80" y2="25"/>
+      <line x1="-20" y1="-70" x2="-80" y2="-55"/>
+      <line x1="-20" y1="-30" x2="-80" y2="-15"/>
+      <line x1="-20" y1="10" x2="-80" y2="25"/>
+    </g>
+  </g>
+  <text x="24" y="316" fill="#6d8298" font-family="monospace" font-size="13">CITY_CARE_HOSPITAL.RVT — LOD400</text>
+</svg>

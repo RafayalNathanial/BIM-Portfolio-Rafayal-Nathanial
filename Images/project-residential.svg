@@ -1,0 +1,23 @@
+<svg viewBox="0 0 600 338" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="338" fill="#16293c"/>
+  <g opacity="0.12" stroke="#2fd4c8" stroke-width="1">
+    <path d="M0 40H600M0 80H600M0 120H600M0 160H600M0 200H600M0 240H600M0 280H600"/>
+    <path d="M40 0V338M80 0V338M120 0V338M160 0V338M200 0V338M240 0V338M280 0V338M320 0V338M360 0V338M400 0V338M440 0V338M480 0V338M520 0V338M560 0V338"/>
+  </g>
+  <!-- residential blocks, isometric row -->
+  <g transform="translate(300,190)">
+    <g transform="translate(-140,20)">
+      <polygon points="0,-40 50,-18 50,50 0,72 -50,50 -50,-18" fill="#1c766e" opacity="0.7"/>
+      <polygon points="0,-40 50,-18 0,4 -50,-18" fill="#2fd4c8" opacity="0.7"/>
+    </g>
+    <g transform="translate(0,-20)">
+      <polygon points="0,-60 65,-30 65,70 0,100 -65,70 -65,-30" fill="#a44e18" opacity="0.75"/>
+      <polygon points="0,-60 65,-30 0,0 -65,-30" fill="#ff8c42" opacity="0.85"/>
+    </g>
+    <g transform="translate(150,30)">
+      <polygon points="0,-32 45,-14 45,42 0,60 -45,42 -45,-14" fill="#1c766e" opacity="0.6"/>
+      <polygon points="0,-32 45,-14 0,4 -45,-14" fill="#2fd4c8" opacity="0.55"/>
+    </g>
+  </g>
+  <text x="24" y="316" fill="#6d8298" font-family="monospace" font-size="13">RESIDENTIAL_COMPLEX.RVT — LOD300</text>
+</svg>
